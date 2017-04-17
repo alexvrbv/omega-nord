@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Info med</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<header>
+		<div class="header-inner">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo">
+							<a href="#"><img src="images/logo.svg"></a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="city-selector">
+							<div class="city-selector-inner">
+								<div class="city-selector-title">Выберите город и регион</div>
+								<div class="city-selector-region"><a href="#">Санкт-Петербург</a></div>
+							</div>
+						</div>
+				   </div>
+					<div class="col-sm-4">
+						<div class="social-links">
+							<a href="#" class="social-link fb"><img src="images/fb.svg"></a>
+							<a href="#" class="social-link tw"><img src="images/twitter.svg"></a>
+							<a href="#" class="social-link vk"><img src="images/vk.svg"></a>
+							<a href="#" class="social-link yt"><img src="images/youtube.svg"></a>
+							<a href="#" class="social-link ig"><img src="images/inst.svg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="search">
+					<div class="search-inner">
+						<form action="/" method="post" class="search-form">
+							<input name="searchword" maxlength="200" class="inputbox search-query" type="search" placeholder="я ищу...">
+							<button class="search-button" onclick="this.form.searchword.focus();">найти</button>
+						</form>
+					</div>
+				</div>
+			</div>
+      </div>
+	</div>
+	<nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a class="home" href="#">Главная</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Статьи</a></li>
+            <li><a href="#">Клиника</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Разделы медицины</a></li>
+            <li><a href="#">Вопрос-ответ</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="top-banner">
+					<a href="#"><img src="images/banner-biomed.jpg" /></a>
+				</div>
+			</div>
+      </div>
+	</div>
+	<div class="breadcrumbs-container">
+		<nav class="breadcrumb">
+		  <a class="breadcrumb-item" href="#">Главная</a>
+		  <span class="breadcrumb-item">></span>
+		  <span class="breadcrumb-item active">Болезни</span>
+		</nav>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="home-links">
+					<div class="home-links-inner">
+						<div class="row">
+							<div class="col-md-4 col-xs-6 home-link">
+								<a href="">
+									<div class="icon news">
+										<img src="images/news.svg">
+									</div>
+									Новости
+								</a>
+							</div>
+							<div class="col-md-4 col-xs-6 home-link">
+								<a href="#">
+									<div class="icon articles">
+										<img src="images/statii.svg">
+									</div>
+									Статьи
+								</a>
+							</div>
+							<div class="col-md-4 col-xs-6 home-link">
+								<a href="#">
+									<div class="icon encyclopedia">
+										<img src="images/enciklopediya.svg">
+									</div>
+									Энциклопедия
+								</a>
+							</div>
+							<div class="col-md-4 col-xs-6 home-link">
+								<a href="#">
+									<div class="icon history">
+										<img src="images/iz_istorii.svg">
+									</div>
+									Из истории
+								</a>
+							</div>
+							<div class="col-md-4 col-xs-6 home-link">
+								<a href="#">
+									<div class="icon diagnostics">
+										<img src="images/diagnostika.svg">
+									</div>
+									Диагностика
+								</a>
+							</div>
+							<div class="col-md-4 col-xs-6 home-link">
+								<a href="#">
+									<div class="icon funds">
+										<img src="images/fondi.svg">
+									</div>
+									Фонды
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+      </div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="news">
+					<div class="news-title">
+						<div class="news-title-background">
+							<div class="news-title-inner">Новости:</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 col-xs-12 col-sm-push-8"> <!-- required for floating -->
+							<ul class="news-part nav nav-tabs tabs-right">
+								<li class="active"><a href="#1" data-toggle="tab" class="news-tab">Компьютерный анализ ДНК поможет обнаружить редкие заболевания</a></li>
+								<li><a href="#2" data-toggle="tab" class="news-tab">Орфанные больные могут остаться без лекарств</a></li>
+								<li><a href="#3" data-toggle="tab" class="news-tab">Валерий Рязанский: Вопросы соцподдержки занимают особое место в работе парламента</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-8 col-xs-12 col-sm-pull-4">
+							<div class="tab-content">
+								<div class="news-part tab-pane active" id="1">
+									<div class="tab-text">
+										<div class="tab-text-inner">Компьютерное сравнение результатов генетического анализа пациентов с имеющимися у ученых и постоянно пополняющимися базами данных заболеваний позволит ставить точный диагноз, особенно в случае редких болезней 1111111111</div>
+									</div>	
+								</div>
+								<div class="news-part tab-pane" id="2">
+									<div class="tab-text">
+										<div class="tab-text-inner">Компьютерное сравнение результатов генетического анализа пациентов с имеющимися у ученых и постоянно пополняющимися базами данных заболеваний позволит ставить точный диагноз, особенно в случае редких болезней 2222222222</div>
+									</div>
+								</div>
+								<div class="news-part tab-pane" id="3">
+									<div class="tab-text">
+										<div class="tab-text-inner">Компьютерное сравнение результатов генетического анализа пациентов с имеющимися у ученых и постоянно пополняющимися базами данных заболеваний позволит ставить точный диагноз, особенно в случае редких болезней 3333333333</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news-link"><a href="#">перейти в раздел</a></div>
+				</div>
+			</div>
+      </div>
+	</div>
+	<div class="right-fixed-links">
+		<div class="right-fixed-links-inner">
+			<a href="#" class="right-fixed-link letter-right"><img src="images/letter-right.svg"></a>
+			<a href="#" class="right-fixed-link kabinet-right"><img src="images/kabinet-right.svg"></a>
+			<a href="#" class="right-fixed-link time-right"><img src="images/time-right.svg"></a>
+			<a href="#" class="right-fixed-link search-right"><img src="images/search-right.svg"></a>
+		</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.matchHeight-min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+  </body>
+</html>
